@@ -1,0 +1,100 @@
+:root {
+  /* Colors — muted, elegant palette */
+  --bg-primary: #f8f9fc;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-hover: #f0f1f5;
+  --bg-active: #e8e9ed;
+  --bg-modal-overlay: rgba(0, 0, 0, 0.3);
+
+  --text-primary: #1a1d26;
+  --text-secondary: #6b7085;
+  --text-tertiary: #9ca0b0;
+  --text-inverse: #ffffff;
+
+  --accent: #4a6cf7;
+  --accent-light: #eef1fe;
+  --accent-gradient: linear-gradient(135deg, #4a6cf7 0%, #6d8dfa 100%);
+
+  --income: #34c895;
+  --income-light: #eafaf3;
+  --expense: #f25f5c;
+  --expense-light: #fdeeed;
+
+  --border: #e8eaf0;
+  --border-light: #f0f1f5;
+
+  /* Category colors */
+  --cat-food: #ff9f43;
+  --cat-transport: #4a6cf7;
+  --cat-shopping: #ee5a8f;
+  --cat-entertainment: #a855f7;
+  --cat-housing: #34c895;
+  --cat-health: #f25f5c;
+  --cat-education: #3b82f6;
+  --cat-other: #6b7085;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 32px;
+  --space-4xl: 40px;
+
+  /* Typography */
+  --font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-xs: 11px;
+  --font-sm: 13px;
+  --font-base: 15px;
+  --font-lg: 17px;
+  --font-xl: 20px;
+  --font-2xl: 24px;
+  --font-3xl: 32px;
+  --font-4xl: 40px;
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.12);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-navbar: 0 -1px 12px rgba(0, 0, 0, 0.06);
+  --shadow-fab: 0 6px 20px rgba(74, 108, 247, 0.35);
+
+  /* iOS 18-like motion tokens */
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-ios: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.35, 0.64, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --duration-fast: 160ms;
+  --duration-normal: 240ms;
+  --duration-slow: 320ms;
+  --duration-modal: 300ms;
+
+  /* Layout */
+  --navbar-height: 64px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --max-width: 430px;
+}

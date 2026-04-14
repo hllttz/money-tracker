@@ -1,0 +1,11 @@
+{
+  "appId": "com.money.tracker",
+  "appName": "记账",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#f8f9fc"
+  }
+}
